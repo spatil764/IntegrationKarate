@@ -1,0 +1,28 @@
+14:25:17.511 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:25:24.559 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+14:25:26.654 response time in milliseconds: 1949.35
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6065
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 7a49dc028e7c85d6-BOM
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 08 Mar 2023 08:55:28 GMT
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kkHl6MqabTnmVijgKV%2B0hQDtkMVhKS8unTWGE8PKMvAiPfOoSC5PpT2ZlpqbZMedkunvFqdkZ%2BM0DvBM5ZIw%2F1T13nyF6R0Ui3uvqGdmn4h18UluaSOkd07Nyg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
